@@ -106,8 +106,8 @@ The cleaned and merged dataset was exported to CSV and visualised in **Tableau C
 ---
 
 ### Dashboard 1 — Claims Overview
+![Costs Overview Dashboard](images/tableau_costs_overview.png)
 
-![Claims Overview Dashboard](images/tableau_claims_overview.png)
 
 This dashboard provides a high-level operational view of outpatient claim activity across the 2008–2010 period.
 
@@ -124,7 +124,7 @@ This dashboard provides a high-level operational view of outpatient claim activi
 
 ### Dashboard 2 — Costs Overview
 
-![Costs Overview Dashboard](images/tableau_costs_overview.png)
+![Claims Overview Dashboard](images/tableau_claims_overview.png)
 
 This dashboard focuses on financial metrics — reimbursement amounts, provider spend, and cost trends over time.
 
