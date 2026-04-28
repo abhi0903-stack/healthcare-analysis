@@ -99,6 +99,45 @@ The notebook (`Healthcare_Project.ipynb`) is structured into 7 clearly labelled 
 
 ---
 
+## Tableau Dashboards
+
+The cleaned and merged dataset was exported to CSV and visualised in **Tableau Cloud** across two interactive dashboards.
+
+---
+
+### Dashboard 1 — Claims Overview
+
+![Claims Overview Dashboard](images/tableau_claims_overview.png)
+
+This dashboard provides a high-level operational view of outpatient claim activity across the 2008–2010 period.
+
+| Visual | Insight |
+|--------|---------|
+| **Claim Payments by State Code** (treemap) | State codes 5, 45, 10, and 33 dominate claim volume, revealing geographic concentration of Medicare spend |
+| **Claims Over Time** (line chart) | Claims ramped sharply from 2007, peaked at ~300K in 2009, then declined — tracking policy/coverage cycles |
+| **Claim Settlement Duration per Provider** (bar chart) | Provider `1926NU` had the longest average settlement time (~0.50 years), nearly 3× the median — a flag for operational inefficiency |
+| **Claims by Gender** | Female beneficiaries (451,926 claims) outpaced Male (325,347) — a ~38% higher utilisation rate |
+| **Monthly Claims** (line chart) | Claims peaked mid-2009 and dropped sharply into 2010/2011, consistent with the annual trend |
+| **Claims by Race** | White beneficiaries account for 655,970 claims (~85% of total); Black (76,801), Others (27,656), Hispanic (16,846) — reflects the demographic composition of the SynPUF sample |
+
+---
+
+### Dashboard 2 — Costs Overview
+
+![Costs Overview Dashboard](images/tableau_costs_overview.png)
+
+This dashboard focuses on financial metrics — reimbursement amounts, provider spend, and cost trends over time.
+
+| Visual | Insight |
+|--------|---------|
+| **KPI tiles** | Total Medicare reimbursement: **$1.69B** · Total claim payment: **$223.3M** · Average claim amount: **$283** |
+| **Top 10 Providers by Claim Payment** (bar chart) | Provider `0502NA` is the single highest-cost provider at ~$2M+ in total claim payments, well above the next tier |
+| **Top 10 Beneficiaries by Medicare Reimbursement** | The highest-cost individual beneficiary (`AD882F650C4A4866`) received ~$2.5M in Medicare reimbursements across the period — indicating complex, high-cost care needs |
+| **Claim Payment Over Time** (line chart) | Total payments peaked at ~$80M in 2009 before declining, mirroring the claims volume trend |
+| **Average Claim Payments by State** (bar chart) | State code `008` has the highest average claim payment (~$340), suggesting either higher-acuity patients or higher regional pricing |
+
+---
+
 ## Tech Stack
 
 | Tool | Purpose |
