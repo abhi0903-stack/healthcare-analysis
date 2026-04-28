@@ -1,0 +1,34 @@
+# ── macOS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Large raw data files (>100 MB — excluded from GitHub) ──────────────────────
+# Download instructions are in the README
+DE1_0_2008_to_2010_Outpatient_Claims_Sample_20.csv
+DE1_0_2009_Beneficiary_Summary_File_Sample_20.csv
+
+# ── Exported / intermediate data files ─────────────────────────────────────────
+abhi_healthcare_project.csv
+*.csv
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter Notebook checkpoints ───────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDE / editor files ─────────────────────────────────────────────────────────
+.cursorrules
+.idea/
+.vscode/
+*.swp
+*.swo
