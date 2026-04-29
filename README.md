@@ -143,7 +143,6 @@ This dashboard focuses on financial metrics — reimbursement amounts, provider 
 | Tool | Purpose |
 |------|---------|
 | Python 3 (pandas, numpy) | Data manipulation and aggregation |
-| Matplotlib / Seaborn | Exploratory visualisation |
 | Jupyter Notebook / Google Colab | Interactive analysis environment |
 | Tableau Cloud | Interactive dashboard (downstream) |
 | CMS SynPUF Sample 20 | Public Medicare synthetic dataset |
